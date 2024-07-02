@@ -1,0 +1,35 @@
+*{
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+.main1{
+    text-align: center;
+    max-width: 500px;
+    margin: 0, auto;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+}
+input{
+display: flex;
+border-radius: 5px;
+width: 100%;
+font-size: 12px;
+padding: 7px;
+}
+input label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight:600;
+}
+button{
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    padding: 7px;
+}
+input label::placeholder{
+    color: rgb(108, 42, 165);
+    font-size: 10px;
+}

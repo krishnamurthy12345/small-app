@@ -1,0 +1,17 @@
+.main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

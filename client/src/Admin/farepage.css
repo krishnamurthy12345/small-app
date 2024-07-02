@@ -1,0 +1,21 @@
+.icon1{
+    background-color: rgb(172, 172, 176);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+  .icon2{
+    background-color: rgb(208, 24, 24);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+  table th{
+    border-bottom: solid 2px rgb(208, 24, 24);
+    word-spacing: 20px;
+  }
+  table td{
+    letter-spacing: normal;
+  }

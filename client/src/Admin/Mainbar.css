@@ -1,0 +1,76 @@
+.nav{
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    color: white;
+}
+.nav h2{
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav i.bi{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav ul li{
+    cursor: pointer;
+}
+/*     sidebar*/
+.sidebar-container{
+    background-color: green;
+    color: white;
+    width: 300px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.sidebar-container::-webkit-scrollbar{
+    display: none;
+}
+.nav-option{
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
+    gap:10px;
+    width: 210px;
+}
+.nav-option:hover,.nav-option:hover i.bi{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+}
+.nav-option i.bi{
+    color: white;
+    font-size: 20px;
+
+}
+
+/*   media Query  */
+
+@media screen and (min-width:500px) {
+    .navCollaps {
+        width: 80px;
+    }
+    .navCollaps .nav-option h3{
+        display: none;
+    }
+    .navCollaps .nav-option{
+        padding: 12px;
+    }
+    .smallDeviceIcon{
+        display: none;
+    }
+}

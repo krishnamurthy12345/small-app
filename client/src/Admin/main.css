@@ -1,0 +1,50 @@
+.first{
+    background-color: blueviolet;
+  }
+  .second{
+    background-color: green;
+  }
+  .third{
+    background-color: red;
+  }
+  .fourth{
+    background-color: yellow;
+  }
+  .icon1{
+    background-color: rgb(172, 172, 176);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+  .icon2{
+    background-color: rgb(208, 24, 24);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+  }
+  table th{
+    border: solid 1px rgb(172, 172, 176);
+    text-align: center;
+  }
+  table tr {
+    border: solid 1px rgb(172, 172, 176);
+    text-align: center;
+  }
+  .image1{
+    height: 40px;
+    width: 40px;
+  }
+  .image2{
+    height: 40px;
+    width: 40px;
+  }
+  .image3{
+    height: 40px;
+    width: 40px;
+  }
+  .image4{
+    height: 40px;
+    width: 40px;
+  }
